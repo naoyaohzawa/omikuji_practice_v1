@@ -1,0 +1,30 @@
+#omikuji{
+    height: 300px;
+    width: 100%;
+    font-size: 30px;
+    background-color:#D7EEFF ;
+    cursor: pointer;
+    box-shadow: darkblue;
+}
+
+#omikuji:hover{
+    opacity: 0.8;
+}
+
+#omikuji:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.result{
+    background-color:lavender;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#echo{
+    text-align: center;
+}
